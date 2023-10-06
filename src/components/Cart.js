@@ -1,4 +1,5 @@
 import React from 'react';
+import "../styles/Cart.css";
 
 
 function Cart() {
@@ -6,13 +7,14 @@ function Cart() {
     let lierrePrice = 10
     let blouquetPrice = 15
     let total = monsteraPrice+lierrePrice+blouquetPrice
-    return <React.Fragment><ul>
-        <li>Monstera : {monsteraPrice}€</li>
-        <li>Lierre : { lierrePrice}€</li>
-        <li>bouquet de fleurs : {blouquetPrice}€</li>
-        </ul>
-    <p>Total = {total} €</p>
-    </React.Fragment>
+    return <div className="lmj-cart">
+                <ul>
+                    <li>Monstera : {monsteraPrice}€</li>
+                    <li>Lierre : { lierrePrice}€</li>
+                    <li>bouquet de fleurs : {blouquetPrice}€</li>
+                </ul>
+                <p>Total = {total} €</p>
+            </div>
 
 }
 
