@@ -1,5 +1,5 @@
-import "../styles/Banner.css"
-import logo from "../assets/logo.png"
+import "../styles/Banner.css" //Import du fichier de style de l'élément
+import logo from "../assets/logo.png" //Import de l'image
 
 function Banner() {
     return <div className="lmj-banner">
