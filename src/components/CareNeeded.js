@@ -1,6 +1,6 @@
 function careNeeded( scaleValue, careType) {
     let typeEntretien = ""
-    if (careType =='light') {
+    if (careType ==='light') {
         typeEntretien = "de lumière"
     } else (
         typeEntretien = "d'arrosage"
@@ -8,9 +8,9 @@ function careNeeded( scaleValue, careType) {
 
     let intensiteEntretien = ""
 
-    if (scaleValue == 1 ) { 
+    if (scaleValue === 1 ) { 
         intensiteEntretien = "Cette plante requiert peu "
-    } else if ( scaleValue == 2 ) {
+    } else if ( scaleValue === 2 ) {
         intensiteEntretien = "Cette plante requiert modérement "
     } else (
         intensiteEntretien ="Cette plante requiert beaucoup "
